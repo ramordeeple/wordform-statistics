@@ -4,7 +4,7 @@ import re
 
 from typing import Final
 
-WORD_CLEANUP_PATTERN: Final[re.Pattern] = re.compile(r'[^\w]')
+WORD_CLEANUP_PATTERN: Final[re.Pattern] = re.compile(r'[^а-яА-ЯёЁa-zA-Z]')
 TEXT_ENCODING: Final[str] = "utf-8"
 ALLOWED_EXTENSION: Final[str] = ".txt"
 
