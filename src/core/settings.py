@@ -5,7 +5,7 @@ from src.domain.constants import TEXT_ENCODING
 
 
 class Settings(BaseSettings):
-    FILE_REPORT_DIR: str = Field(default="./data/reports")
+    FILE_REPORT_DIR: str = Field(default="./data/report")
 
     # 2 ГБ
     MAX_UPLOAD_SIZE: int = Field(default=2 * 1024 * 1024 * 1024)
