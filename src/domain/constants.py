@@ -6,6 +6,7 @@ from typing import Final
 
 WORD_CLEANUP_PATTERN: Final[re.Pattern] = re.compile(r'[^\w]')
 TEXT_ENCODING: Final[str] = "utf-8"
+ALLOWED_EXTENSION: Final[str] = ".txt"
 
 COLUMN_WORD: Final[str] = "Словоформа"
 COLUMN_TOTAL: Final[str] = "Всего во всем документе"
