@@ -2,7 +2,7 @@ import uuid
 from pathlib import Path
 from typing import BinaryIO, Counter, Tuple, Dict, List
 
-from src.app.infrastructure.excel_writer import write_frequency_report
+from src.infrastructure.excel_writer import write_frequency_report
 from src.core import settings
 from src.core.constants import REPORT_EXTENSION
 from src.domain.constants import TEXT_ENCODING
