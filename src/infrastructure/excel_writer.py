@@ -13,7 +13,7 @@ def write_frequency_report(
     Записывает собранную статистику в формат Excel.
 
     :param global_stats: Общий счетчик слов по всему документу.
-    :param lines_stats Список словарей (счетчик для каждой строки).
+    :param lines_stats: Список словарей (счетчик для каждой строки).
     :param output_path: Полный путь для сохранения .xlsx файла.
     """
 
